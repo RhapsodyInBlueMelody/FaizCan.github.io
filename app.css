@@ -1,0 +1,310 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html,body {
+    box-sizing: border-box;
+    background-color: #15F5BA;
+}
+
+ header{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+<<<<<<< HEAD
+        font-size: 50px;
+        padding-top: 5px;
+=======
+        font-size: 40px;
+        padding-top: 10px;
+>>>>>>> origin/master
+        padding-left: 50px;
+        background-color: #836FFF;
+        display: inline-flex;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+header img {
+        margin-left: auto;
+        padding-right: 50px;
+        max-width: 7.5%;
+
+ }
+
+.myname{
+    display: flex;
+    align-items: flex-end;
+    padding: 8% 0% 8% 0%;
+    margin: 2%;
+    border-radius: 50px;
+    background-color: #836FFF;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+
+.myname h1{
+    font-size: 70px;
+}
+
+.myphoto{
+    margin: 0% 10%;
+    height: auto;
+    border-radius: 100px;
+<<<<<<< HEAD
+    width: 500px;
+=======
+    width: 350px;
+>>>>>>> origin/master
+    background-image: linear-gradient(to bottom,rgb(100, 34, 166, 1),rgb(108, 34, 166, 1),rgb(131, 111, 255, 1),rgb(131, 111, 255, 1),rgb(131, 111, 255, 1) );
+}
+
+div{
+    font-size: 20px;
+    margin-bottom: 15%;
+    font-family: Calibri;
+    display: block;
+}
+
+.myself {
+    display: block;
+    background-image: linear-gradient(to bottom, rgb(21, 245, 186), rgb(33, 25, 81), rgb(33, 25, 81), rgb(33, 25, 81),rgb(33, 25, 81));
+}
+
+.myself-text{
+    font-size: 45px;
+    color: white;
+    padding: 20% 60% 20% 3%;
+    font-family: 'Segoe UI';
+}
+
+.pixelstar{
+    object-fit: cover;
+    width: 100%;
+    max-height: 10%;
+}
+
+.myme {
+    padding-top: 20px;
+    display: block;
+    color: #F8E559;
+    letter-spacing: 20px;
+    font-size: 330px;
+    font-family: Impact;
+}
+
+@media only screen and (max-width: 1510px) {
+
+    .myname h1{
+        font-size: 50px;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px){
+    .myphoto{
+        margin: 0% 5%;
+        width: 300px;
+    }
+    header img{
+        margin-left: auto;
+        max-width: 10%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .myphoto{
+        border-radius: 50px;
+        width: 200px;
+        margin: none;
+    }
+
+    header h1{
+<<<<<<< HEAD
+        font-size: 40px;
+=======
+        font-size: 20px;
+>>>>>>> origin/master
+    }
+
+    .myname h1{
+        font-size: 45px;
+    }
+
+    header img{
+        margin-left: auto;
+<<<<<<< HEAD
+        max-width: 15%;
+=======
+        max-width: 10%;
+>>>>>>> origin/master
+    }
+    
+}
+
+@media only screen and (max-width: 425px) {
+
+    header h1{
+        font-size: 20px;
+    }
+    header img{
+        margin-left: auto;
+        max-width: 15%;
+    }
+    
+    .myname{
+        margin: 5% 0%;
+    }
+
+    div{
+        font-size: 15px;
+    }
+
+    .myname h1{
+        font-size: 25px;
+    }
+    .myphoto{
+        width: 125px;
+    }
+    
+}
+
+
+.ilove {
+    background-image: linear-gradient(to bottom, rgb(33,25,81), rgb(33,25,81)) ;
+    display: block;
+    padding: 15% 2%;
+}
+
+
+.love {
+    color: #F8E559;
+    font-family: "Kode Mono", monospace;
+    font-weight: 400;
+    font-size: 100px;
+    padding-right: 1200px;
+    font-style: normal;
+  }
+
+#problem {
+    color: red;
+    cursor: pointer;
+}
+
+.whyLove {
+    font-family: "Kode Mono", monospace;
+    padding-left: 65px;
+    padding-right: 1000px;
+    font-optical-sizing: auto;
+    border-right: red;
+    color: white;
+    font-size: 30px;
+}
+
+.retroman{
+    display: block;
+    background-image: linear-gradient(to top, rgb(100, 32, 170),rgb(100, 32, 170),rgb(100, 32, 170), rgb(100, 32, 170),rgb(100, 32, 170),rgb(100, 32, 170), rgb(33,25,81));
+    padding: 40% 30%;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.retro{
+    color: #FF7ED4;
+<<<<<<< HEAD
+    font-size: 80px;
+=======
+    font-size: 55px;
+>>>>>>> origin/master
+}
+
+.old{
+    color: #FFB5DA;
+<<<<<<< HEAD
+    font-size:  30px;
+}
+
+.giphy-embed1{
+    transform: translate(-500px, -600px);
+=======
+    font-size:  20px;
+}
+
+.giphy-embed1{
+    transform: translate(-300px, -300px);
+>>>>>>> origin/master
+    position: absolute;
+    z-index: 1;
+}
+
+.giphy-embed2{
+<<<<<<< HEAD
+    transform: translate(150px, -600px) scale(1.0);
+=======
+    transform: translate(100px, -370px) scale(0.6);
+>>>>>>> origin/master
+    position: absolute;
+    z-index: 1;
+}
+
+.giphy-embed3{
+<<<<<<< HEAD
+    transform: translate(750px, -580px) scale(1.1);
+=======
+    transform: translate(440px, -405px) scale(0.5); 
+>>>>>>> origin/master
+    position: absolute;
+    z-index: 1;
+}
+
+.giphy-embed4{
+    transform: translate(100px, 300px) scale(1.5);
+    position: absolute;
+    z-index: 1;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> origin/master
