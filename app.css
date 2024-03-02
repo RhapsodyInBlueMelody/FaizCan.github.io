@@ -54,13 +54,13 @@ html,body {
 
  header{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-<<<<<<< HEAD
+
         font-size: 50px;
         padding-top: 5px;
-=======
+
         font-size: 40px;
         padding-top: 10px;
->>>>>>> origin/master
+ /
         padding-left: 50px;
         background-color: #836FFF;
         display: inline-flex;
@@ -93,11 +93,11 @@ header img {
     margin: 0% 10%;
     height: auto;
     border-radius: 100px;
-<<<<<<< HEAD
+
     width: 500px;
-=======
+
     width: 350px;
->>>>>>> origin/master
+ /
     background-image: linear-gradient(to bottom,rgb(100, 34, 166, 1),rgb(108, 34, 166, 1),rgb(131, 111, 255, 1),rgb(131, 111, 255, 1),rgb(131, 111, 255, 1) );
 }
 
@@ -162,11 +162,8 @@ div{
     }
 
     header h1{
-<<<<<<< HEAD
         font-size: 40px;
-=======
         font-size: 20px;
->>>>>>> origin/master
     }
 
     .myname h1{
@@ -175,11 +172,8 @@ div{
 
     header img{
         margin-left: auto;
-<<<<<<< HEAD
         max-width: 15%;
-=======
         max-width: 10%;
->>>>>>> origin/master
     }
     
 }
@@ -253,48 +247,44 @@ div{
 
 .retro{
     color: #FF7ED4;
-<<<<<<< HEAD
+
     font-size: 80px;
-=======
+
     font-size: 55px;
->>>>>>> origin/master
 }
 
 .old{
     color: #FFB5DA;
-<<<<<<< HEAD
+
     font-size:  30px;
 }
 
 .giphy-embed1{
     transform: translate(-500px, -600px);
-=======
+
     font-size:  20px;
 }
 
 .giphy-embed1{
     transform: translate(-300px, -300px);
->>>>>>> origin/master
     position: absolute;
     z-index: 1;
 }
 
 .giphy-embed2{
-<<<<<<< HEAD
+
     transform: translate(150px, -600px) scale(1.0);
-=======
+
     transform: translate(100px, -370px) scale(0.6);
->>>>>>> origin/master
     position: absolute;
     z-index: 1;
 }
 
 .giphy-embed3{
-<<<<<<< HEAD
+
     transform: translate(750px, -580px) scale(1.1);
-=======
+
     transform: translate(440px, -405px) scale(0.5); 
->>>>>>> origin/master
     position: absolute;
     z-index: 1;
 }
@@ -303,8 +293,6 @@ div{
     transform: translate(100px, 300px) scale(1.5);
     position: absolute;
     z-index: 1;
-<<<<<<< HEAD
+
 }
-=======
 }
->>>>>>> origin/master
