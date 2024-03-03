@@ -233,60 +233,40 @@ div{
 
 .retroman{
     display: block;
+    padding-top: 20%;
     background-image: linear-gradient(to top, rgb(100, 32, 170),rgb(100, 32, 170),rgb(100, 32, 170), rgb(100, 32, 170),rgb(100, 32, 170),rgb(100, 32, 170), rgb(33,25,81));
-    padding: 40% 30%;
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
 }
 
 .retro{
     color: #FF7ED4;
-
+    padding: 0% 30%;
     font-size: 80px;
-
     font-size: 55px;
 }
 
 .old{
     color: #FFB5DA;
-
+    padding: 0% 30%;
     font-size:  30px;
 }
 
-.giphy-embed1{
-    transform: translate(-500px, -600px);
-
-    font-size:  20px;
+.retrogif{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 0;
+  align-items: middle;
+  justify-content: space-around;
 }
 
-.giphy-embed1{
-    transform: translate(-300px, -300px);
-    position: absolute;
-    z-index: 1;
+#divdav{
+  padding-bottom: 500px;
 }
 
-.giphy-embed2{
-
-    transform: translate(150px, -600px) scale(1.0);
-
-    transform: translate(100px, -370px) scale(0.6);
-    position: absolute;
-    z-index: 1;
-}
-
-.giphy-embed3{
-
-    transform: translate(750px, -580px) scale(1.1);
-
-    transform: translate(440px, -405px) scale(0.5); 
-    position: absolute;
-    z-index: 1;
-}
-
-.giphy-embed4{
-    transform: translate(100px, 300px) scale(1.5);
-    position: absolute;
-    z-index: 1;
-
-}
+.retrogif img{
+  max-width:15%;
+ height: auto;
+  border-radius: 30px;
 }
