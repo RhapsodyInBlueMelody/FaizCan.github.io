@@ -169,6 +169,12 @@ div{
         max-width: 15%;
         max-width: 10%;
     }
+    .retro {
+    font-size: 20px;
+    }
+    .old {
+      font-size:12px;
+    }
     
 }
 
@@ -209,7 +215,7 @@ div{
 
 .love {
     color: #F8E559;
-    font-family: "Kode Mono", monospace;
+    font-family: "Ubuntu Condensed", sans-serif;
     font-weight: 400;
     font-size: 100px;
     padding-right: 1200px;
@@ -222,7 +228,7 @@ div{
 }
 
 .whyLove {
-    font-family: "Kode Mono", monospace;
+    font-family: "Ubuntu Condensed", sans-serif;
     padding-left: 65px;
     padding-right: 1000px;
     font-optical-sizing: auto;
@@ -236,7 +242,6 @@ div{
     padding-top: 20%;
     background-image: linear-gradient(to top, rgb(100, 32, 170),rgb(100, 32, 170),rgb(100, 32, 170), rgb(100, 32, 170),rgb(100, 32, 170),rgb(100, 32, 170), rgb(33,25,81));
     font-family: "Pixelify Sans", sans-serif;
-    font-optical-sizing: auto;
 }
 
 .retro{
@@ -269,4 +274,56 @@ div{
   max-width:15%;
  height: auto;
   border-radius: 30px;
+}
+
+.videogames {
+  display: block;
+  background-image: linear-gradient(to top, rgb(33, 25, 81),rgb(33, 25, 81),rgb(33, 25, 81),rgb(33,25,81),rgb(100, 32, 170));
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-style: normal;
+  color: white;
+  padding-right: 3%;
+  padding-top: 50%;
+  padding-bottom: 20%;
+  text-align: left;
+}
+.image-wrap{
+  position: absolute;
+  overflow: hidden;
+  padding-left: 15%;
+  width: 480px;
+  height: 480px;
+}
+.videogames img {
+  position: absolute;
+  overflow: hidden;
+  width: 480px;
+  height: 480px;
+  z-index: 1;
+  filter: grayscale(80%) contrast(20%);
+  transition: filter 0.3s ease-in, transform 0.3s ease-in; /* Add transition property for smooth animation */
+}
+
+
+.videogames img:hover {
+  filter: grayscale(0%) contrast(100%);
+  transform: translateY(-20px);
+}
+
+
+.videogames h2 {
+  font-size: 5rem;
+  text-align: right;
+}
+
+a {
+ text-decoration: none;
+ color: cyan;
+}
+
+.videogames p{
+  font-size: 2.5rem;
+  text-align: justify;
+  padding-top: 20px;
+  padding-left: 70%;
 }
