@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-html,body {
+html,body,main {
     box-sizing: border-box;
     background-color: #15F5BA;
 }
@@ -59,15 +59,16 @@ html,body {
         font-size: 40px;
         padding-top: 10px;
         padding-left: 50px;
+        padding-right: auto;
         background-color: #836FFF;
         display: inline-flex;
         box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 header img {
-        margin-left: auto;
-        padding-right: 50px;
-        max-width: 7.5%;
+        margin-left: 73%;
+        padding-right: auto;
+        max-width: 8%;
 
  }
 
@@ -75,7 +76,6 @@ header img {
     display: flex;
     align-items: flex-end;
     padding: 8% 0% 8% 0%;
-    margin: 2%;
     border-radius: 50px;
     background-color: #836FFF;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
@@ -98,7 +98,7 @@ header img {
 div{
     font-size: 20px;
     margin-bottom: 15%;
-    font-family: Calibri;
+    font-family: "Ubuntu Condensed";
     display: block;
 }
 
@@ -108,9 +108,9 @@ div{
 }
 
 .myself-text{
-    font-size: 45px;
-    color: white;
-    padding: 20% 60% 20% 3%;
+    font-size: 1rem;
+    color: cyan;
+    padding: 25% 15% 10% 3%;
     font-family: 'Segoe UI';
 }
 
@@ -121,11 +121,11 @@ div{
 }
 
 .myme {
-    padding-top: 20px;
+    padding-top: 10px;
     display: block;
     color: #F8E559;
     letter-spacing: 20px;
-    font-size: 330px;
+    font-size: 10rem;
     font-family: Impact;
 }
 
@@ -207,9 +207,9 @@ div{
 
 
 .ilove {
-    background-image: linear-gradient(to bottom, rgb(33,25,81), rgb(33,25,81)) ;
+    background-image: linear-gradient(to top, rgb(33,25,81), rgb(33,25,81), rgb(33,25,81), rgb(33,25,81)) ;
     display: block;
-    padding: 15% 2%;
+    padding: 11% 5%;
 }
 
 
@@ -218,7 +218,7 @@ div{
     font-family: "Ubuntu Condensed", sans-serif;
     font-weight: 400;
     font-size: 100px;
-    padding-right: 1200px;
+    padding-right: 25%;
     font-style: normal;
   }
 
@@ -230,8 +230,7 @@ div{
 .whyLove {
     font-family: "Ubuntu Condensed", sans-serif;
     padding-left: 65px;
-    padding-right: 1000px;
-    font-optical-sizing: auto;
+    padding-right: 30%;
     border-right: red;
     color: white;
     font-size: 30px;
@@ -247,14 +246,14 @@ div{
 .retro{
     color: #FF7ED4;
     padding: 0% 30%;
-    font-size: 80px;
     font-size: 55px;
 }
+
 
 .old{
     color: #FFB5DA;
     padding: 0% 30%;
-    font-size:  30px;
+    font-size:  20px;
 }
 
 .retrogif{
@@ -284,13 +283,18 @@ div{
   color: white;
   padding-right: 3%;
   padding-top: 50%;
-  padding-bottom: 20%;
+  padding-bottom: 50%;
   text-align: left;
 }
+
+.videogames span{
+  color: cyan
+}
+
 .image-wrap{
   position: absolute;
   overflow: hidden;
-  padding-left: 15%;
+  margin-left: 10%;
   width: 480px;
   height: 480px;
 }
@@ -316,13 +320,13 @@ div{
   text-align: right;
 }
 
-a {
+.videogames a {
  text-decoration: none;
  color: cyan;
 }
 
 .videogames p{
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-align: justify;
   padding-top: 20px;
   padding-left: 70%;
