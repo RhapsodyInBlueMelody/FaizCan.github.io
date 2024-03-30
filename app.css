@@ -30,7 +30,6 @@ header img {
 .myphoto{
     margin: 0% 10%;
     border-radius: 100px;
-    width: 350px;
     background-image: linear-gradient(to bottom,rgb(100, 34, 166, 1),rgb(108, 34, 166, 1),rgb(131, 111, 255, 1),rgb(131, 111, 255, 1),rgb(131, 111, 255, 1) );
 }
 
@@ -118,7 +117,7 @@ p {
     
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 575.98px) {
 
     header h1{
         font-size: 20px;
@@ -133,12 +132,36 @@ p {
     }
 
     .myname div{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .myname h1{
-        font-size: 25px;
+	    font-size: 25px;
+
     }
+
+    .retroman h2 {
+	    padding: 0;
+	    text-align: center;
+	    font-size: 40px;
+    }
+
+    .retroman p {
+	    padding: 0% 16%;
+	    text-align: justify;
+	    font-size: 20px;
+    }
+
+    .retrogif{
+	
+    }
+	
+    .retrogif img{
+	    max-width: 20px;
+	    border-radius: 0px;
+	
+    }
+
     .myphoto{
         width: 125px;
     }
