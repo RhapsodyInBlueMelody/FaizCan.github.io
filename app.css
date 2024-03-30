@@ -1,82 +1,23 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    cursor: default;
+    background-color: #15F5BB !important;
+
 }
 
-html,body,main {
-    box-sizing: border-box;
-    background-color: #15F5BA;
-}
 
  header{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 50px;
-        padding-top: 5px;
+        font-family: Calibri;
         font-size: 40px;
-        padding-top: 10px;
-        padding-left: 50px;
-        padding-right: auto;
         background-color: #836FFF;
-        display: inline-flex;
         box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
-header img {
-        margin-left: 73%;
-        padding-right: auto;
-        max-width: 8%;
 
+header img {
+        max-width: 8%;
  }
 
 .myname{
-    display: flex;
-    align-items: flex-end;
-    padding: 8% 0% 8% 0%;
-    border-radius: 50px;
     background-color: #836FFF;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
@@ -88,30 +29,29 @@ header img {
 
 .myphoto{
     margin: 0% 10%;
-    height: auto;
     border-radius: 100px;
-    width: 500px;
     width: 350px;
     background-image: linear-gradient(to bottom,rgb(100, 34, 166, 1),rgb(108, 34, 166, 1),rgb(131, 111, 255, 1),rgb(131, 111, 255, 1),rgb(131, 111, 255, 1) );
 }
 
-div{
+.myname div{
     font-size: 20px;
-    margin-bottom: 15%;
     font-family: "Ubuntu Condensed";
-    display: block;
 }
 
 .myself {
-    display: block;
     background-image: linear-gradient(to bottom, rgb(21, 245, 186), rgb(33, 25, 81), rgb(33, 25, 81), rgb(33, 25, 81),rgb(33, 25, 81));
 }
 
 .myself-text{
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: cyan;
     padding: 25% 15% 10% 3%;
     font-family: 'Segoe UI';
+}
+
+p {
+	margin: 0 !important;
 }
 
 .pixelstar{
@@ -192,7 +132,7 @@ div{
         margin: 5% 0%;
     }
 
-    div{
+    .myname div{
         font-size: 15px;
     }
 
@@ -208,8 +148,7 @@ div{
 
 .ilove {
     background-image: linear-gradient(to top, rgb(33,25,81), rgb(33,25,81), rgb(33,25,81), rgb(33,25,81)) ;
-    display: block;
-    padding: 11% 5%;
+    padding: 11% 2%;
 }
 
 
@@ -224,7 +163,7 @@ div{
 
 #problem {
     color: red;
-    cursor: pointer;
+    cursor: default;
 }
 
 .whyLove {
@@ -330,4 +269,9 @@ div{
   text-align: justify;
   padding-top: 20px;
   padding-left: 70%;
+}
+
+.linke a {
+ text-decoration: none !important;
+ color: black !important;
 }
