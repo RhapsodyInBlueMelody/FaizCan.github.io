@@ -69,3 +69,5 @@ window.addEventListener('DOMContentLoaded', function() {
     var audio = document.getElementById('backgroundAudio');
 	audio.volume = 0.1
 });
+
+document.getElementById('myAudioElement').play();
